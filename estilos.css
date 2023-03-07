@@ -1,3 +1,22 @@
-h1{
+*{
     font-family: 'Golos Text', sans-serif;;
+    box-sizing: border-box;
 }
+.encabezadoIzquierda{
+    width: 10%;
+    float: left;
+    padding: 10px;
+}
+.encabezado{
+    width: 100%;
+    float: left;
+    color: #FFFFFF;
+    background-color: #003366;
+    padding: 1px;
+    box-shadow: 5px 10px 8px #888888;
+}
+nav {
+    display: block;
+}
+
+.col-1 {width: 8.33%;}
