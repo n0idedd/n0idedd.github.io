@@ -2,10 +2,12 @@
     font-family: 'Golos Text', sans-serif;;
     box-sizing: border-box;
 }
-.encabezadoIzquierda{
-    width: 10%;
-    float: left;
-    padding: 10px;
+@media only screen and (min-width: 601px) {
+    .encabezadoIzquierda{
+        width: 10%;
+        float: left;
+        padding: 10px;
+    }
 }
 .encabezado{
     width: 100%;
@@ -14,9 +16,52 @@
     background-color: #003366;
     padding: 1px;
     box-shadow: 5px 10px 8px #888888;
+    margin-bottom: 30px;
 }
 nav {
     display: block;
 }
+li {
+    list-style-image: url('recursos/done.png');
+  }
+@media only screen and (max-width: 600px) {
+    .encabezadoIzquierda{
+        width: 30%;
+    }
+}
 
-.col-1 {width: 8.33%;}
+.instagram {
+    width: 20px;
+    height: 20px;
+    background-image: url(recursos/instagramQuieto.png);
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 1px;
+    margin-left: 5px;
+    float: left;
+}
+
+.linkedin {
+    width: 20px;
+    height: 20px;
+    background-image: url(recursos/linkedinQuieto.png);
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 1px;
+    margin-left: 5px;
+    float: left;
+}
+
+
+.barra{
+    width: 100%;
+    float: left;
+}
+
+.instagram:hover {
+    background-image: url(recursos/instagram.gif);
+}
+
+.linkedin:hover {
+    background-image: url(recursos/linkedin.gif);
+}
